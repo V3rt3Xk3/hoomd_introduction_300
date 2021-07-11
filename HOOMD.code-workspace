@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.pythonPath": "/home/v3rt1k3/Repos/hoomd_introduction/HOOMD_VENV/bin/python",
+		"python.terminal.activateEnvironment": true,
+    	"python.terminal.activateEnvInCurrentTerminal": true,
+		"python.analysis.extraPaths": [
+			"/home/v3rt1k3/anaconda3/envs/MD_VENV/bin/python",
+			"${workspaceFolder}/source/"	
+		],
+		"terminal.integrated.profiles.linux": {
+
+			"bash": {
+				"path": "bash",
+				
+			},
+			"zsh": {
+				"path": "zsh"
+			},
+			"fish": {
+				"path": "fish"
+			},
+			"tmux": {
+				"path": "tmux",
+				"icon": "terminal-tmux"
+			},
+			"pwsh": {
+				"path": "pwsh",
+				"icon": "terminal-powershell"
+			}
+		},
+		"files.exclude": {
+			"**/HOOMD_VENV": true
+		}
+	}
+
+}

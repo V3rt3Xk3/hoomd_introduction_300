@@ -9,8 +9,8 @@
 		"python.terminal.activateEnvironment": true,
     	"python.terminal.activateEnvInCurrentTerminal": true,
 		"python.analysis.extraPaths": [
-			"/home/v3rt1k3/anaconda3/envs/MD_VENV/bin/python",
-			"${workspaceFolder}/source/"	
+			"/home/v3rt1k3/Repos/hoomd_introduction/HOOMD_VENV/",
+			"${workspaceFolder}/"	
 		],
 		"terminal.integrated.profiles.linux": {
 

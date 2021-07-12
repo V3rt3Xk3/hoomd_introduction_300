@@ -12,7 +12,8 @@ from Utilities.Utils import SysUtils
 
 # NOTE: General Sys setup
 currentPath = os.path.dirname(__file__)
-filePath = SysUtils.generateSnaptshotPath(currentPath=currentPath, fileName="resizedBox.gsd")
+fileName = "resizedBox"
+filePath = SysUtils.generateSnaptshotPath(currentPath=currentPath, fileName=(fileName + ".gsd"))
 
 
 
@@ -62,11 +63,11 @@ print(out[:].shape)
 print(out[:].dtype)
 
 image = PIL.Image.fromarray(out[:], mode='RGBA')
-filePath = SysUtils.generateSnaptshotPath(currentPath=currentPath, fileName='lattice_png.png')
+filePath = SysUtils.generateSnaptshotPath(currentPath=currentPath, fileName=(fileName + '.png'))
 image.save(filePath)
 
 image = PIL.Image.fromarray(out[:,:,0:3], mode='RGB')
-filePath = SysUtils.generateSnaptshotPath(currentPath=currentPath, fileName='lattice_jpg.jpg')
+filePath = SysUtils.generateSnaptshotPath(currentPath=currentPath, fileName=(fileName + '.jpg'))
 image.save(filePath)
 
 

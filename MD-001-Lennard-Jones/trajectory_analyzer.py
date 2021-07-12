@@ -12,7 +12,7 @@ from Utilities.Utils import SysUtils
 
 # NOTE: General Sys setup
 currentPath = os.path.dirname(__file__)
-fileName = "resizedBox"
+fileName = "SimulationEnd"
 filePath = SysUtils.generateSnaptshotPath(currentPath=currentPath, fileName=(fileName + ".gsd"))
 
 

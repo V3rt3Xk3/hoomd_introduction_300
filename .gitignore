@@ -1,6 +1,9 @@
 # Virtual Environment Files
 HOOMD_VENV/*
 
+# Snapshot data
+*/snapshots/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -5,11 +5,11 @@
 		}
 	],
 	"settings": {
-		"python.pythonPath": "/home/v3rt1k3/Repos/hoomd_introduction/HOOMD_VENV/bin/python",
+		"python.pythonPath": "${workspaceFolder}/HOOMD_VENV/bin/python",
 		"python.terminal.activateEnvironment": true,
     	"python.terminal.activateEnvInCurrentTerminal": true,
 		"python.analysis.extraPaths": [
-			"/home/v3rt1k3/Repos/hoomd_introduction/HOOMD_VENV/",
+			"${workspaceFolder}/HOOMD_VENV/",
 			"${workspaceFolder}/"	
 		],
 		"terminal.integrated.profiles.linux": {
